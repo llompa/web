@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsicoSalud - Bienestar y Equilibrio Mental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to bottom, #ecf0f1, #bdc3c7);
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            padding: 50px 0;
+        }
+        .section-bg {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .section-bg:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            font-size: 28px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            margin: 6px 0;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact-button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .contact-button:hover {
+            background: #2980b9;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        PsicoSalud - Bienestar y Equilibrio Mental
+    </header>
+    
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <div class="container">
+        <section id="inicio">
+            <div class="section-bg">
+                <h2>Bienvenidos a PsicoSalud</h2>
+                <p>Tu salud mental es nuestra prioridad. Brindamos apoyo psicológico para ayudarte a alcanzar un bienestar pleno y equilibrado.</p>
+            </div>
+        </section>
+        
+        <section id="sobre-nosotros">
+            <div class="section-bg">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos un equipo de psicólogos altamente capacitados, especializados en diferentes áreas de la salud mental. Nuestra misión es brindarte herramientas para superar cualquier desafío emocional.</p>
+            </div>
+        </section>
+        
+        <section id="servicios">
+            <div class="section-bg">
+                <h2>Nuestros Servicios</h2>
+                <ul>
+                    <li>Terapia Individual - Encuentra tu equilibrio emocional</li>
+                    <li>Terapia de Pareja - Fortalece tu relación</li>
+                    <li>Coaching Emocional - Crecimiento personal</li>
+                    <li>Asesoramiento Psicológico Online - Apoyo donde quiera que estés</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <div class="section-bg contact-info">
+                <h2>Contacto</h2>
+                <p><strong>📍 Dirección:</strong> Calle Ficticia 123, Ciudad</p>
+                <p><strong>📧 Email:</strong> contacto@psicosalud.com</p>
+                <p><strong>📞 Teléfono:</strong> +123 456 789</p>
+                <a href="mailto:contacto@psicosalud.com" class="contact-button">Escríbenos</a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        &copy; 2025 PsicoSalud. Todos los derechos reservados.
+        <div class="social-icons">
+            <a href="#">🌐</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+        </div>
+    </footer>
+</body>
+</html>
